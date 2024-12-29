@@ -1,0 +1,165 @@
+main,
+.legal-page-header-wrap,
+.legal-F-nav-wrap {
+  width: 100%;
+}
+/* legal page main section css */
+.legal-page-header-wrap {
+  padding: 70px 0 22px;
+}
+.legal-page-header-content,
+.legal-main-wrap,
+.legal-F-navmenu-wrap,
+.legal-F-backmenu-nav,
+.footer-sec-c {
+  max-width: 1024px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.legal-page-header-wrap h1 {
+  font-size: 48px;
+  margin-bottom: 21.6px;
+  text-align: center;
+}
+.legal-page-header-wrap p {
+  width: 653.33px;
+  margin: 0 auto 21px;
+  font-size: 21px;
+  text-align: center;
+}
+.legal-main-content {
+  width: 816.66px;
+  margin: 0 auto;
+}
+.legal-content {
+  margin-top: 50px;
+}
+.legal-content p {
+  font-size: 17px;
+  font-weight: 400;
+  margin: 0 0 17px;
+}
+.legal-content h3 {
+  font-size: 24px;
+}
+.legal-content h3:not(.first-H) {
+  margin: 38.4px 0 10.4px;
+}
+.legal-content h3:first-child {
+  margin-bottom: 10.4px;
+}
+.legal-content a {
+  color: #0066cc;
+  text-decoration: none;
+}
+.legal-content a:hover {
+  text-decoration: underline;
+  text-decoration-color: #5d89b4;
+}
+.legal-content ul {
+  margin: 17px 0 17px 18.8889px;
+}
+.legal-content ul li {
+  list-style-type: square;
+  margin-bottom: 5px;
+  font-size: 17px;
+  height: 25px;
+}
+.empty p {
+  margin-bottom: 17px;
+}
+/* legal page footer section css */
+.legal-F-nav-wrap {
+  background-color: rgb(245, 245, 247);
+  font-size: 12px;
+  font-weight: 400;
+  color: rgba(29, 29, 31, 0.8);
+}
+.legal-F-backmenu-nav {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 17px 0;
+}
+.legal-F-backmenu-nav > img {
+  height: 20px;
+  padding-right: 7px;
+  opacity: 0.56;
+}
+.legal-F-backmenu-nav > span {
+  padding: 3px 4px 3px 0;
+  margin: 0 7px 0 0;
+}
+.legal-F-backmenu-nav > span > img {
+  height: 14px;
+  vertical-align: middle;
+  opacity: 0.56;
+  margin: 2.1px 11px 0 0;
+}
+.legal-F-navmenu-wrap {
+  display: flex;
+}
+.legal-F-navmenu-col {
+  width: 245px;
+  height: 353.6px;
+}
+.legal-F-navmenu-col p {
+  color: #000000e0;
+  margin-right: 20px;
+  margin-bottom: 9.6px;
+  font-weight: 600;
+}
+.legal-F-navmenu-col ul {
+  margin: 0 20px 0 0;
+  list-style: none;
+}
+.legal-F-navmenu-col ul li {
+  margin: 0 0 9.6px 0;
+}
+.footer-legal-wrap > ul > li > a,
+.legal-F-navmenu-col ul li a {
+  text-decoration: none;
+  color: rgba(29, 29, 31, 0.56);
+}
+.footer-legal-wrap > ul > li > a:hover,
+.legal-F-navmenu-col ul li a:hover {
+  text-decoration: underline;
+}
+.legal-F-navmenu-col ul:not(:nth-child(1)) {
+  padding-top: 20px;
+}
+/* footer from home page css */
+.footer-sec-c {
+  padding: 37px 0 11px;
+}
+.footer-sec-c .sec-divider {
+  padding: 19px 0 0 0;
+  margin: 0 0 16px;
+}
+.footer-apple-store > p {
+  margin: 0;
+}
+.footer-apple-store > p > a {
+  margin-left: 9px;
+  color: #0066cc;
+}
+.footer-legal-wrap > ul,
+.footer-legal-wrap > ul > li,
+.footer-legal-wrap > span {
+  display: inline-block;
+}
+.footer-legal-wrap > ul,
+.footer-legal-wrap > span {
+  margin: 5px 30px 0 0;
+}
+.footer-legal-wrap .country {
+  float: inline-end;
+}
+.vertical-divider:not(:nth-child(2)) {
+  border-right: solid 1px #0000008f;
+  margin: 0 9px;
+  font-size: 8px;
+}
+.footer-legal-wrap ul #bold-divider {
+  border-width: 2px;
+}

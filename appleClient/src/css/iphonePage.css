@@ -1,0 +1,122 @@
+body {
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  color: #1d1d1f;
+  align-items: center;
+  min-height: 100vh;
+}
+body p a span div {
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+}
+.welcomePageWrapper {
+  padding: 100px 0 150px;
+}
+.welcomePageWrapper .headerWrapper {
+  padding-bottom: 80px;
+  margin: 0 auto;
+}
+.headerWrapper h1 {
+  font-size: 80px;
+  font-weight: 700;
+}
+.links {
+  text-decoration: none;
+  color: #0066cc;
+  font-size: 17px;
+}
+.links:hover {
+  text-decoration: underline;
+}
+.productsPageWrapper {
+  padding: 150px 0 80px;
+  background-color: #f5f5f7;
+}
+.productsPageWrapper h2 {
+  font-size: 56px;
+  font-weight: 500;
+}
+
+.titleWrap {
+  width: 344px;
+  height: 371px;
+  margin: 0 auto;
+}
+.productDescription {
+  font-weight: 100;
+}
+.imgWrapper1 {
+  width: 191px;
+  height: 241px;
+  margin: 0 auto;
+}
+.imgWrapper2 {
+  width: 180px;
+  height: 241px;
+  margin: 0 auto;
+}
+.imgWrapper3 {
+  width: 155px;
+  height: 241px;
+  margin: 0 auto;
+}
+.imgWrapper4 {
+  width: 154px;
+  height: 241px;
+  margin: 0 auto;
+}
+.imgWrapper5 {
+  width: 130px;
+  height: 241px;
+  margin: 0 auto;
+}
+.productImg {
+  width: 100%;
+  height: 100%;
+}
+.productStatus {
+  color: #b64400;
+  margin: 27px 0 4px;
+}
+.productTitle {
+  font-size: 28px;
+  font-weight: 600;
+  margin: 20px 0 0;
+  user-select: none;
+}
+.productDescription {
+  font-size: 12px;
+  margin: 0;
+}
+.priceRange {
+  font-weight: 500;
+  font-size: 17px;
+}
+.moreBtn {
+  color: #fff;
+}
+
+.moreBtn:hover {
+  text-decoration: none;
+}
+.priceBtn i {
+  color: #0066cc;
+  font-size: 12px !important;
+}
+.specWrapper p {
+  font-size: 12px;
+  font-weight: 200;
+}
+.spec {
+  width: auto;
+  height: 86px;
+  margin-bottom: 20px;
+}
+.specDetails {
+  width: auto;
+  height: 162px;
+  margin-bottom: 20px;
+}
+.specDetails p {
+  margin-bottom: 6px;
+}

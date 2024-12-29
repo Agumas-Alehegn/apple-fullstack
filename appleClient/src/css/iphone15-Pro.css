@@ -1,0 +1,67 @@
+/*iPhone 15Pro section css starts*/
+.main-sec-b {
+  position: relative;
+}
+.iphone-15pro-link {
+  text-decoration: none;
+  text-align: center;
+  color: #ffff;
+}
+.iphone-15pro-promo-wrap {
+  background-image: url(../assets/image/home/hero_iphone15pro__i70z9oz3hj2i_large.jpg);
+}
+@media (max-width: 768px) {
+  .iphone-15pro-promo-wrap {
+    background-image: url(../assets/image/home/promo_iphone15pro__formobile.jpg);
+  }
+}
+.iphone-15pro-promo-wrap {
+  height: 580px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.iphone-15pro-promo-unitwrap {
+  padding-top: 47px;
+}
+.iphone-15pro-promo-unitwrap h2 {
+  font-size: 56px;
+  font-weight: 600;
+  color: #fff;
+}
+.iphone-15pro-promo-unitwrap p {
+  font-size: 28px;
+  margin-top: 6px;
+}
+.iphone-15pro-btn-wrap {
+  margin-top: 19px;
+  text-align: center;
+}
+.btn-learn-more-i15pro,
+.btn-buy-i15pro {
+  min-width: 30px;
+  border-radius: 980px;
+  border: solid 1px rgb(0, 119, 237);
+  transition: 0.25s ease-in-out;
+  opacity: 0.8;
+  z-index: 0;
+  cursor: pointer;
+  padding: 8px 21px;
+  font-size: 17px;
+  background-color: #0071e3;
+  color: #fff;
+}
+.btn-buy-i15pro {
+  background-color: transparent;
+  border-color: rgb(0, 119, 237);
+  color: rgb(0, 119, 237);
+  margin-left: 13px;
+}
+.btn-learn-more-i15pro:hover {
+  opacity: 1;
+}
+.btn-buy-i15pro:hover {
+  background-color: #06c;
+  color: #fff;
+}
+/*iPhone 15Pri section css ends*/

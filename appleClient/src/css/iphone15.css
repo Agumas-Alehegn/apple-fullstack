@@ -1,0 +1,59 @@
+/*iPhone 15 section css starts*/
+.iphone-15-link {
+  text-decoration: none;
+  text-align: center;
+  color: black;
+}
+.iphone-15-promo-wrap {
+  background-image: url(../assets/image/home/hero_iphone15_announce__uuemlcwczn6u_large.jpg);
+}
+.iphone-15-promo-wrap {
+  height: 580px;
+  background-size: cover;
+  background-position: center;
+}
+.iphone-15-promo-unitwrap {
+  padding-top: 47px;
+}
+.iphone-15-promo-unitwrap h2 {
+  font-size: 56px;
+  font-weight: 600;
+}
+.iphone-15pro-promo-unitwrap h2 {
+  color: #fff;
+}
+.iphone-15-promo-unitwrap p {
+  font-size: 28px;
+  margin-top: 6px;
+}
+.iphone-15-btn-wrap {
+  margin-top: 19px;
+  text-align: center;
+}
+.btn-learn-more-i15,
+.btn-buy-i15 {
+  min-width: 30px;
+  border-radius: 980px;
+  border: solid 1px rgb(0, 119, 237);
+  transition: 0.25s ease-in-out;
+  opacity: 0.8;
+  z-index: 0;
+  cursor: pointer;
+  padding: 8px 21px;
+  font-size: 17px;
+  background-color: #0071e3;
+  color: #fff;
+}
+.btn-buy-i15 {
+  background-color: transparent;
+  margin-left: 13px;
+  color: rgb(0, 119, 237);
+}
+.btn-learn-more-i15:hover {
+  opacity: 1;
+}
+.btn-buy-i15:hover {
+  background-color: #06c;
+  color: #fff;
+}
+/*iPhone 15 section css ends*/

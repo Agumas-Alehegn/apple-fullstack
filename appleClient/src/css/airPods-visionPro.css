@@ -1,0 +1,103 @@
+/* section f  AirPods and Vision Pro css starts*/
+.airpods-pro-img-wrap {
+  background-image: url(../assets/image/home/promo_airpods_pro_order__d8xv36p4uwae_large.jpg);
+}
+
+.visionPro-img-wrap {
+  background-image: url(../assets/image/home/promo_apple_vision_pro__f4v4zp0sum2y_large.jpg);
+}
+.btn-learn-more-airpods,
+.btn-buy-airpods,
+.btn-learn-more-visionpro,
+.btn-buy-visionPro {
+  min-width: 30px;
+  border-radius: 980px;
+  border: solid 1px rgb(0, 119, 237);
+  transition: 0.25s ease-in-out;
+  opacity: 0.8;
+  z-index: 0;
+  cursor: pointer;
+  padding: 8px 20px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #0071e3;
+}
+.btn-buy-airpods,
+.btn-buy-visionPro {
+  padding: 8px 18px;
+  color: #0071e3;
+  background-color: transparent;
+  margin-left: 13px;
+}
+
+.btn-learn-more-airpods:hover,
+.btn-learn-more-visionpro:hover {
+  opacity: 1;
+}
+.btn-buy-airpods:hover,
+.btn-buy-visionPro:hover {
+  background-color: #06c;
+  color: #fff;
+}
+
+.visionPro-link,
+.airpods-pro-link {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+.airpods-pro-img-wrap,
+.visionPro-img-wrap {
+  height: 580px;
+  width: auto;
+  background-position: center;
+  background-size: cover;
+  text-decoration: none;
+}
+.airpods-promo-overlay,
+.visionPro-promo-overlay {
+  width: 100%;
+  height: 580px;
+  display: flex;
+  flex-direction: column;
+}
+
+.airpods-promo-head-wrap,
+.visionPro-promo-img-wrap {
+  margin-top: 53px;
+  font-size: 40px;
+  font-weight: 600;
+}
+.visionPro-promo-overlay {
+  justify-content: end;
+  position: relative;
+}
+.airpods-promo-subhead,
+.visionPro-promo-subhead {
+  font-size: 21px;
+  font-weight: 400;
+  margin-top: 4px;
+  color: black;
+}
+
+.airpods-promo-head-wrap,
+.airpods-promo-subhead,
+.visionPro-promo-img-wrap,
+.visionPro-promo-subhead {
+  margin: 0 auto;
+  display: inline-block;
+}
+.btn-wrap-visionpro,
+.btn-wrap-airpods {
+  margin-top: 17px;
+  text-align: center;
+}
+.airpods-promo-head-wrap h2 {
+  margin-top: 53px;
+}
+.airpods-promo-head-wrap h2,
+.airpods-promo-subhead p {
+  color: #fff;
+}
+
+/* section f  Airpods Pro and Vision Pro  css ends */

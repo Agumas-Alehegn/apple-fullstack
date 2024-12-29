@@ -1,0 +1,123 @@
+/* section d apple dev-conference and macBook air css starts */
+.dev-conf-img-wrap {
+  background-image: url(../assets/image/home/promo_wwdc24_announce__fv0p5miwnjiq_large.jpg);
+}
+.m-bookair-img-wrap {
+  background-image: url(../assets/image/home/hero_macbook_air_m3__cp4t7pn8zqaa_large.jpg);
+}
+
+.btn-learn-more-dev-conf,
+.btn-learn-more-m-bookair,
+.btn-buy-m-bookair {
+  min-width: 30px;
+  border-radius: 980px;
+  border: solid 1px rgb(0, 119, 237);
+  transition: 0.25s ease-in-out;
+  opacity: 0.8;
+  z-index: 0;
+  cursor: pointer;
+  padding: 8px 20px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #0071e3;
+}
+.btn-buy-m-bookair {
+  padding: 8px 18px;
+  color: #0071e3;
+  background-color: transparent;
+  margin-left: 13px;
+}
+.btn-learn-more-dev-conf:hover,
+.btn-learn-more-m-bookair:hover {
+  opacity: 1;
+}
+.btn-buy-m-bookair:hover {
+  background-color: #06c;
+  color: #fff;
+}
+.apple-dev-conf-link,
+.m-bookair-promo-link {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+.apple-dev-conf-link {
+  color: #fff;
+}
+
+.dev-conf-img-wrap,
+.m-bookair-img-wrap {
+  height: 580px;
+  width: auto;
+  background-position: center;
+  background-size: cover;
+  text-decoration: none;
+}
+.dev-conf-promo-overlay,
+.m-bookair-promo-overlay {
+  width: 100%;
+  height: 580px;
+  display: flex;
+  flex-direction: column;
+}
+.dev-conf-promo,
+.m-bookair-promo-head,
+.m-bookair-promo-subhead {
+  margin: 0 auto;
+  display: inline-block;
+}
+.btn-wrap-dev-conf,
+.btn-wrap-visionpro {
+  padding-bottom: 53px;
+}
+.btn-wrap-dev-conf,
+.btn-wrap-m-bookair {
+  position: relative;
+  margin-top: 19px;
+}
+.dev-conf-promo-head,
+.m-bookair-promo-head {
+  margin-top: 53px;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.dev-conf-promo-head {
+  position: absolute;
+  top: 0;
+  left: 33%;
+  width: 240px;
+  height: 370;
+}
+.dev-conf-promo-head span {
+  visibility: hidden;
+}
+.dev-conf-promo-subhead,
+.m-bookair-promo-subhead {
+  font-size: 21px;
+  font-weight: 400;
+  margin-top: 4px;
+  color: black;
+}
+.dev-conf-promo-overlay {
+  justify-content: end;
+  position: relative;
+}
+.btn-wrap-dev-conf,
+.btn-wrap-m-bookair {
+  margin: 0 auto;
+  display: inline-block;
+}
+.btn-wrap-dev-conf {
+  margin-top: 17px;
+  text-align: center;
+}
+.dev-conf-promo-subhead p {
+  color: #fff;
+}
+
+.btn-learn-more-dev-conf {
+  cursor: pointer;
+}
+
+/* section d apple dev-conference and macBook air css end */

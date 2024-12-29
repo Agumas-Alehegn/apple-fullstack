@@ -1,0 +1,344 @@
+.main-sec-h {
+  margin: 15px;
+  position: relative;
+}
+.slider-container {
+  position: relative;
+  width: 100%;
+  height: 355px;
+  overflow: hidden;
+  border-radius: 6px;
+  margin: 0 auto;
+}
+
+.bottom-info {
+  position: absolute;
+  z-index: 2;
+  bottom: 25px;
+  left: 5%;
+}
+.genre,
+.m-info {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 600;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.6);
+}
+@media (min-width: 576px) {
+  .slider-container {
+    height: 456px;
+  }
+  .stream-btn {
+    font-size: 18px;
+  }
+}
+@media (min-width: 992px) {
+  .slider-container {
+    height: 645px;
+  }
+}
+.slider {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  transition: transform 0.5s ease;
+}
+.slide {
+  width: 100%;
+  flex-shrink: 0;
+  position: relative;
+}
+.slide img {
+  width: 100%;
+  height: 100%;
+}
+.slider-input {
+  display: none;
+}
+/* Auto slide */
+.slider-input:first-of-type:checked ~ .slider {
+  animation: auto-slide 36s infinite alternate-reverse;
+}
+@keyframes auto-slide {
+  0% {
+    transform: translateX(0);
+  }
+  11.1% {
+    transform: translateX(0);
+  }
+  12% {
+    transform: translateX(-100%);
+  }
+  22.2% {
+    transform: translateX(-100%);
+  }
+  23% {
+    transform: translateX(-200%);
+  }
+  33.3% {
+    transform: translateX(-200%);
+  }
+  34% {
+    transform: translateX(-300%);
+  }
+  44.4% {
+    transform: translateX(-300%);
+  }
+  45% {
+    transform: translateX(-400%);
+  }
+  55.5% {
+    transform: translateX(-400%);
+  }
+  56% {
+    transform: translateX(-500%);
+  }
+  66.6% {
+    transform: translateX(-500%);
+  }
+  67% {
+    transform: translateX(-600%);
+  }
+  77.7% {
+    transform: translateX(-600%);
+  }
+  78% {
+    transform: translateX(-700%);
+  }
+  88.8% {
+    transform: translateX(-700%);
+  }
+  89% {
+    transform: translateX(-800%);
+  }
+  100% {
+    transform: translateX(-800%);
+  }
+}
+
+/* manual slide */
+#slide-img1:checked ~ .img1 {
+  margin-left: 0;
+}
+#slide-img1:checked ~ .img2 {
+  margin-left: -11%;
+}
+#slide-img3:checked ~ .img3 {
+  margin-left: -22%;
+}
+#slide-img4:checked ~ .img4 {
+  margin-left: -33%;
+}
+#slide-img5:checked ~ .img5 {
+  margin-left: -44%;
+}
+#slide-img6:checked ~ .img6 {
+  margin-left: -55%;
+}
+#slide-img7:checked ~ .img7 {
+  margin-left: -66%;
+}
+#slide-img8:checked ~ .img8 {
+  margin-left: -77%;
+}
+#slide-img9:checked ~ .img9 {
+  margin-left: -88%;
+}
+.radio-nav-btn {
+  display: flex;
+  margin: 6px;
+  justify-content: center;
+}
+.label-btn {
+  width: 12px;
+  height: 12px;
+  border: 1px solid #a7a7a7;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.15s ease-in-out;
+  margin: 8px;
+  background-color: #a7a7a7;
+}
+.label-btn:hover {
+  background-color: #000000;
+}
+/* section i slider-b css  */
+.main-sec-i {
+  margin: 0 0 20px 0;
+}
+.slider-container-b {
+  width: 100%;
+  height: 50%;
+  overflow: hidden;
+}
+.slider-wrapper {
+  height: 100%;
+  margin: auto;
+}
+.slides-b {
+  animation: scroll 42s linear infinite;
+  display: flex;
+  width: calc((6 * 2) * 417px);
+  height: 100%;
+  column-gap: 15px;
+}
+.slide-b {
+  display: flex;
+  width: 417px;
+  height: 236px;
+}
+.img1,
+.img3,
+.img4,
+.img6 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 3px;
+}
+.img1 {
+  background-image: url(../assets/image/Carousel/1-Arcade.jpg);
+}
+.img3 {
+  background-image: url(../assets/image/Carousel/3-fitness.jpg);
+}
+.img4 {
+  background-image: url(../assets/image/Carousel/4-kids.jpg);
+}
+.img6 {
+  background-image: url(../assets/image/Carousel/6-yoga-balance-poses.jpg);
+}
+.img1,
+.img2,
+.img3,
+.img4,
+.img5,
+.img5,
+.img6 {
+  box-shadow: inset 0 -30px 35px -15px rgba(0, 0, 0, 0.5);
+}
+.slide-b img {
+  width: 100%;
+  height: 100%;
+}
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-436px * 6));
+  }
+}
+.slide-overlay:hover {
+  width: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 0 15px 10px 16px;
+  margin: 0px;
+  .overlay-btn {
+    visibility: visible;
+  }
+}
+.overlay-wrap-img2:hover,
+.overlay-wrap-img5:hover {
+  opacity: 1;
+  .overlay-btn {
+    visibility: visible;
+  }
+}
+.overlay-btn {
+  visibility: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 11px 21px;
+  transform: translate(-50%, -50%);
+  min-width: 30px;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  color: #000000;
+  background-color: #fff;
+  cursor: pointer;
+  transition: 0.25s;
+}
+.slide-overlay {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  color: #fff;
+  margin: 0 15px 10px 16px;
+  text-decoration: none;
+  transition: 0.25s;
+}
+.overlay-wrap-img2,
+.overlay-wrap-img5 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.overlay-wrap-img2 {
+  background-color: rgb(39, 83, 76);
+}
+.overlay-wrap-img5 {
+  background-color: rgb(37, 37, 39);
+}
+.overlay-wrap-img2,
+.overlay-wrap-img5 {
+  border-radius: 3px;
+  opacity: 0.9;
+  text-decoration: none;
+}
+.overlay-bg-img2,
+.overlay-bg-img5 {
+  width: 55%;
+  height: 85%;
+  border-radius: 6px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  margin: 15px 0 15px 15px;
+}
+.overlay-bg-img2 {
+  background-image: url(../assets/image/Carousel/2-music-album.jpg);
+}
+.overlay-bg-img5 {
+  background-image: url(../assets/image/Carousel/5-raplife.jpg);
+}
+.overlay-wrap-img2 > span,
+.overlay-wrap-img5 > span {
+  width: 25%;
+  margin-left: 20px;
+  color: #fff;
+}
+.overlay-logo {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.overlay-logo > span {
+  padding-left: 2px;
+  color: #fff;
+}
+.overlay-logo > img {
+  width: 14px;
+  height: auto;
+}
+.overlay-logo .logo,
+.overlay-logo .art {
+  align-self: flex-end;
+  margin-bottom: 15px;
+}
+.slide-overlay .overlay-logo img,
+.slide-overlay .overlay-logo span {
+  align-self: flex-end;
+}
+.slide-overlay .overlay-logo img {
+  margin-bottom: -10px;
+}

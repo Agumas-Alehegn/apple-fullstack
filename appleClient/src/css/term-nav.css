@@ -1,0 +1,114 @@
+/* Apple home page nav bar css*/
+
+.home-page-nav {
+  width: 100%;
+  background-color: #fafafccc;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  backdrop-filter: blur(2px);
+}
+.home-page-nav-wrap {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 22px;
+  box-sizing: border-box;
+}
+.home-page-nav-wrap ul {
+  margin: 0 -8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.home-page-nav-wrap ul li {
+  height: 44px;
+  display: flex;
+  padding: 0 8px;
+  align-items: center;
+  list-style-type: none;
+}
+.home-page-nav-wrap ul li a {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 1);
+  text-decoration: none;
+  transition: 0.25s ease-in-out;
+  opacity: 0.7;
+}
+.home-page-nav-wrap ul li a img {
+  font-size: 18px;
+  width: auto;
+}
+.home-page-nav-wrap ul li a:hover {
+  opacity: 1;
+}
+/*End*/
+/* Terms page css*/
+.legal-page-nav-wrap {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 22px;
+  box-sizing: border-box;
+}
+.legal-nav-content ul {
+  margin: 0 -8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.legal-nav-content ul li {
+  height: 44px;
+  display: flex;
+  padding: 0 8px;
+  align-items: center;
+  list-style-type: none;
+}
+.legal-nav-content ul li a {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 1);
+  text-decoration: none;
+  transition: 0.25s ease-in-out;
+  opacity: 0.7;
+}
+.term-homepage-nav {
+  width: 100%;
+  background-color: #fafafccc;
+  position: relative;
+  top: 0;
+  z-index: 100;
+  backdrop-filter: blur(2px);
+}
+.legal-page-nav-wrap {
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+.legal-nav-content ul {
+  margin-top: 8px;
+}
+body.scrolled.home-page-nav {
+  position: relative;
+  top: 0;
+}
+body.scrolled.legal-page-nav-wrap {
+  position: sticky;
+  top: 0;
+}
+.legal-nav-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.legal-nav-content ul li a:hover {
+  text-decoration: underline;
+  color: #0066cc;
+}
+.legal-page-nav-wrap.sec-divider {
+  padding-top: 6px;
+}
+.legal-page-nav-wrap .sec-divider,
+.legal-main-content .sec-divider,
+.footer-apple-store .sec-divider {
+  border-bottom: 1px solid rgba(29, 29, 31, 0.16);
+}
+/* End */

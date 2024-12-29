@@ -1,0 +1,109 @@
+/* section g apple card and TradeIn  css starts */
+.card-img-wrap {
+  background-image: url(../assets/image/home/tile__cauwwcyyn9hy_large.jpg);
+}
+.tradein-img-wrap {
+  background-image: url(../assets/image/home/promo_iphone_tradein__bugw15ka691e_large.jpg);
+}
+
+.btn-learn-more-card,
+.btn-apply-card,
+.btn-tradein {
+  min-width: 30px;
+  border-radius: 980px;
+  border: solid 1px rgb(0, 119, 237);
+  transition: 0.25s ease-in-out;
+  opacity: 0.8;
+  z-index: 0;
+  cursor: pointer;
+  padding: 8px 20px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #0071e3;
+}
+.btn-apply-card {
+  padding: 8px 20px;
+  font-size: 14px;
+  color: #0071e3;
+  background-color: transparent;
+  margin-left: 13px;
+}
+.btn-apply-card:hover {
+  background-color: #06c;
+  color: #fff;
+}
+.btn-learn-more-card:hover,
+.btn-tradein:hover {
+  opacity: 1;
+}
+.apple-card-link,
+.tradein-promo-link {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+.apple-card-link {
+  color: #fff;
+}
+.tradein-promo-link {
+  color: #fff;
+}
+
+.card-img-wrap,
+.tradein-img-wrap {
+  height: 580px;
+  width: auto;
+  background-position: center;
+  background-size: cover;
+  text-decoration: none;
+}
+
+.card-promo-overlay,
+.tradein-promo-overlay {
+  width: 100%;
+  height: 580px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-promo-img,
+.card-promo-subhead,
+.tradein-promo-img,
+.tradein-promo-subhead {
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.btn-wrap-tradein,
+.btn-wrap-card {
+  margin-top: 17px;
+  text-align: center;
+}
+
+.card-promo-subhead,
+.tradein-promo-subhead {
+  font-size: 21px;
+  font-weight: 400;
+  margin-top: 4px;
+  color: black;
+}
+.btn-apply-card,
+.btn-learn-more-card,
+.btn-learn-more-tradein {
+  cursor: pointer;
+}
+.tradein-promo-subhead {
+  max-width: 315px;
+  margin-top: 10px;
+}
+.card-promo-subhead {
+  max-width: 290px;
+  margin-top: 10px;
+}
+.card-promo-img,
+.tradein-promo-img {
+  margin-top: 58px;
+  max-width: 430px;
+}
+/* section g apple card and TradeIn  css ends */
